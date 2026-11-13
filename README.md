@@ -10,11 +10,11 @@
 
 | Module | Title | Phase Covered |
 |---|---|---|
-| W2-PM1 | Multiple Kali Tools | Reconnaissance and Footprinting |
-| W2-PM2 | GHDB (Google Hacking Database) | Reconnaissance and Footprinting |
-| W2-PM3 | Maltego | Reconnaissance and Footprinting |
-| W2-PM4 | theHarvester | Reconnaissance and Footprinting |
-| W2-PM5 | Zenmap Scanning | Scanning and Network Discovery |
+| WK2-PM1 | Multiple Kali Tools | Reconnaissance and Footprinting |
+| WK2-PM2 | GHDB (Google Hacking Database) | Reconnaissance and Footprinting |
+| WK2-PM3 | Maltego | Reconnaissance and Footprinting |
+| WK2-PM4 | theHarvester | Reconnaissance and Footprinting |
+| WK2-PM5 | Zenmap Scanning | Scanning and Network Discovery |
 
 **Client/Target:**  
 1. Networkwalks (written permission already secured)  
@@ -35,7 +35,7 @@ Do not use any information in this report to break the law. The instructor, auth
 
 ## 📘 2. Introduction
 
-This report covers the Week 2 practical activities completed as part of the Cybersecurity and Ethical Hacking internship at Networkwalks. It documents five modules: **W2-PM1 (Multiple Kali Tools), W2-PM2 (GHDB), W2-PM3 (Maltego), W2-PM4 (theHarvester), and W2-PM5 (Zenmap Scanning)**.
+This report covers the Week 2 practical activities completed as part of the Cybersecurity and Ethical Hacking internship at Networkwalks. It documents five modules: **WK2-PM1 (Multiple Kali Tools), WK2-PM2 (GHDB), WK2-PM3 (Maltego), WK2-PM4 (theHarvester), and WK2-PM5 (Zenmap Scanning)**.
 
 The first four modules focused on reconnaissance and footprinting, while the final module focused on scanning and network discovery. Together, these activities demonstrate how a security professional can gather publicly available information about a target and identify active devices on a local network.
 
@@ -61,7 +61,7 @@ All footprinting activities were performed against the authorised target, `netwo
 
 ## 🧪 4. Activities Performed
 
-### 🐧 4.1 W2-PM1: Multiple Kali Tools
+### 🐧 4.1 WK2-PM1: Multiple Kali Tools
 
 I performed reconnaissance against the authorised target, `networkwalks.com`, using WHOIS, WhatWeb, Nslookup, Curl, Wafw00f, and DNSRecon. Each tool was used to collect a different type of publicly available information about the target domain.
 
@@ -77,7 +77,7 @@ Next, I used Wafw00f to determine whether a Web Application Firewall was protect
 
 Finally, I used DNSRecon to enumerate DNS records. The results provided information about name servers, mail servers, SPF and TXT records, service records, and DNS software.
 
-### 🔎 4.2 W2-PM2: GHDB
+### 🔎 4.2 WK2-PM2: GHDB
 
 I used the Google Hacking Database (GHDB) to identify publicly accessible information using Google search operators, also known as Google dorks. This activity demonstrated how search engines can expose sensitive or unintentionally public information.
 
@@ -113,7 +113,7 @@ I used the Google Hacking Database (GHDB) to identify publicly accessible inform
 
 This activity showed that poorly configured devices, directories, and files can be indexed by search engines and discovered by attackers. Organisations should regularly review what information is publicly accessible online.
 
-### 🕸️ 4.3 W2-PM3: Maltego
+### 🕸️ 4.3 WK2-PM3: Maltego
 
 I used Maltego to perform open-source intelligence (OSINT) analysis on the authorised target domain. Maltego was used to create a visual graph showing relationships between the domain and associated information.
 
@@ -123,7 +123,7 @@ The Maltego graph identified `info@networkwalks.com` as an email address associa
 
 This activity showed the importance of controlling publicly available information, as email addresses and domain relationships can be used for reconnaissance, phishing awareness, and further investigation.
 
-### 🌐 4.4 W2-PM4: theHarvester
+### 🌐 4.4 WK2-PM4: theHarvester
 
 I used theHarvester to collect publicly available information about a target domain. The tool was used to search for information such as email addresses, hosts, subdomains, and IP addresses.
 
@@ -133,7 +133,7 @@ I then ran theHarvester using the `all` option with a limit of 50 results. Some 
 
 This activity demonstrated that OSINT tools may return different results depending on the data sources and API keys available. It also showed the importance of configuring tools correctly before conducting reconnaissance.
 
-### 🖥️ 4.5 W2-PM5: Network Scanning with Zenmap
+### 🖥️ 4.5 WK2-PM5: Network Scanning with Zenmap
 
 For the final activity, I used Zenmap to perform network discovery on my own local network. The purpose of the scan was to identify the local IP address and subnet, discover live hosts, collect IP and MAC address information, and create a network topology.
 
@@ -205,7 +205,7 @@ The risks identified during these activities relate mainly to information exposu
 
 ## 🏁 7. Conclusion
 
-During Week 2 of the Cybersecurity and Ethical Hacking internship, I completed five practical modules covering reconnaissance, footprinting, OSINT, and network scanning. These modules were **W2-PM1 (Multiple Kali Tools), W2-PM2 (GHDB), W2-PM3 (Maltego), W2-PM4 (theHarvester), and W2-PM5 (Zenmap Scanning)**.
+During Week 2 of the Cybersecurity and Ethical Hacking internship, I completed five practical modules covering reconnaissance, footprinting, OSINT, and network scanning. These modules were **WK2-PM1 (Multiple Kali Tools), WK2-PM2 (GHDB), WK2-PM3 (Maltego), WK2-PM4 (theHarvester), and WK2-PM5 (Zenmap Scanning)**.
 
 In the footprinting activities, I used multiple Kali Linux tools to collect information about the authorised target domain. I learned how WHOIS can provide domain registration information, WhatWeb can identify web technologies, Nslookup can resolve domain names, Curl can inspect HTTP headers, Wafw00f can identify a WAF, and DNSRecon can enumerate DNS records.
 
